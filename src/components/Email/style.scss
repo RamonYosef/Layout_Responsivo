@@ -1,0 +1,143 @@
+.wrapper_Email {
+  width: 100%;
+  margin-top: 84px;
+  margin-bottom: 53px;
+
+  .box_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9afcd;
+    border-radius: 80px;
+    padding: 5px;
+
+    .box_txt {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      margin-bottom: 15px;
+      margin-top: 37px;
+
+      .titulo {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 800;
+      }
+
+      .txt {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      @media (max-width: 1400px) {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+
+        .titulo {
+          
+          font-size: 33px;
+          text-align: center;
+        }
+
+        .txt{
+          font-size: 12px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .titulo {
+          width: 198px;
+          font-size: 20px;
+          text-align: center;
+        }
+
+        .txt{
+          font-size: 14px;
+          width: 257px;
+        }
+      }
+
+     
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 13px;
+
+      .input_Form {
+        width: 749px;
+        padding: 14px 0;
+        border-radius: 16px;
+        background-color: #f2f2f2;
+        padding-left: 12px;
+
+        &::placeholder {
+          color: #b5b5b5;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 24px;
+          font-weight: 400;
+        }
+      }
+
+      .btn {
+        width: 278px;
+        height: 51px;
+        border-radius: 22px;
+        background-color: #6c237c;
+
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 19px;
+      }
+
+      @media (max-width: 600px) {
+        .input_Form {
+          width: 329px;
+          padding: 11px;
+
+          &::placeholder {
+            font-size: 16px;
+          }
+        }
+
+        .btn {
+          width: 202px;
+          height: 37px;
+          font-size: 16px;
+        }
+      }
+
+      @media (max-width: 1400px) {
+        .input_Form {
+          width: 329px;
+          padding: 11px;
+
+          &::placeholder {
+            font-size: 16px;
+          }
+        }
+
+        .btn {
+          width: 202px;
+          height: 37px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

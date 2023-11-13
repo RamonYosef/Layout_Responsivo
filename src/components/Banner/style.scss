@@ -1,0 +1,36 @@
+.wrapper_Banner{
+    width: 100%;
+    height: 484px;
+    background-image: url("../Img/fundo-de-banner-roxo-abstrato-moderno_181182-21732\ 1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .box_txt{
+        width: 539px;
+        margin-left: 64px;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        transition: all 0.5s;
+
+        .txt{
+            font-size: 16px;
+
+            &_primary{
+                font-size: 40px;
+            }
+        }
+    }
+
+    @media (max-width: 600px){
+        .box_txt{
+            width: 325px;
+            margin-left: 25px;
+            margin-bottom: 100px;
+        }
+    }
+}

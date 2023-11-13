@@ -1,0 +1,50 @@
+.wrapper_Produto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 41px;
+
+ 
+  .box_produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    gap: 27px;
+
+    .titulo {
+      font-size: 40px;
+      font-weight: 800;
+      font-family: 'Open Sans', sans-serif;
+      color: #661b70;
+    }
+  
+    
+  }
+
+  @media (max-width: 600px){
+    .row_list{
+      padding-left: 0;
+    }
+
+    .list_card{
+      flex-direction: column;
+      gap: 31px;
+    }
+  }
+
+  @media (max-width: 1400px){
+    .row_list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 0;
+    }
+
+    
+   
+  }
+}

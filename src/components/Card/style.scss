@@ -1,0 +1,38 @@
+.wrapper_Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  width: 233px;
+
+
+  .box_produto {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .produto {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Open Sans', sans-serif;
+      color: #000;
+    }
+
+    .valor {
+      font-size: 16px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      color: #000;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .img_card {
+      width: 300px;
+      height: 309.42px;
+    }
+  }
+}

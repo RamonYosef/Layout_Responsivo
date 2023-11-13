@@ -1,0 +1,32 @@
+.wrapper_Menu {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0;
+
+
+  border-top: 1px solid #fff;
+  margin-bottom: 7px;
+
+  .list_links_menu {
+
+    padding-top: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+    .links_menu{
+        color: #fff;
+        font-family: 'Jockey One', sans-serif;
+        font-size: 16px;
+      }
+  }
+
+  @media(min-width: 1400px){
+    display: none;
+  }
+
+ 
+}

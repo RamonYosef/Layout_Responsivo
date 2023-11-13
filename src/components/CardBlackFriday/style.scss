@@ -1,0 +1,57 @@
+.wrapper_CardBlackFriday {
+  width: 366px;
+
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(102, 27, 112, 0.35);
+  gap: 25px;
+  border-radius: 22px;
+  padding: 0;
+
+  .box_txt {
+    padding-top: 11px;
+    .off {
+      font-size: 24px;
+      font-weight: 700;
+      color: #000;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .txt {
+      font-size: 16px;
+      font-weight: 600;
+      color: #96969a;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+  @media (max-width: 600px) {
+    width: 231px;
+    height: 88px;
+
+    .black-img {
+      width: 122px;
+    }
+
+    .box_txt {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      margin-top: 7px;
+      .off {
+        font-size: 16px;
+        font-weight: 700;
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      .txt {
+        font-size: 12px;
+        font-weight: 600;
+        color: #96969a;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.wrapper_Navbar {
+  width: 100%;
+  background-color: #661b70;
+  padding-left: 64px;
+  padding-right: 109px;
+
+  .box_nav {
+    height: 90px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .titulo {
+      color: #fff;
+      font-family: 'Jockey One', sans-serif;
+      font-size: 40px;
+    }
+
+    .list_links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 37px;
+      transition: all 0.5s;
+
+      .links {
+        color: #fff;
+        font-family: 'Jockey One', sans-serif;
+        font-size: 16px;
+      }
+    }
+
+    
+  }
+
+  .menu{
+    display: none;
+  }
+
+
+
+  @media (max-width: 600px) {
+    padding-left: 25px;
+    padding-right: 34px;
+    .links {
+      display: none;
+    }
+
+    .menu{
+      display: block;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    padding-left: 25px;
+    padding-right: 34px;
+    .links {
+      display: none;
+    }
+
+    .menu{
+      display: block;
+      cursor: pointer;
+    }
+  }
+}
