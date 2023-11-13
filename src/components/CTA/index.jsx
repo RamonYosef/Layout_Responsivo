@@ -20,24 +20,30 @@ const CTA = () => {
               <Col className='box_group'>
                 <div className="group">
                   <img src={icon1} alt="" className='icon'/>
+                  <div className="box_txt">
                   <h1 className="titulo">Alta segurança</h1>
                   <p className="txt">Compre com segurança, protegemos seus dados.</p>
+                  </div>
                 </div>
               </Col>
               <Col className='box_group'>
                 <div className="group">
                   <img src={icon2} alt="" />
+                  <div className="box_txt">
                   <h1 className="titulo">Entrega rápida</h1>
                   <p className="txt">
                     Entrega rápida garantida. Receba seus pedidos em tempo recorde!
                   </p>
+                  </div>
                 </div>
               </Col>
               <Col className='box_group'>
                 <div className="group">
                   <img src={icon3} alt="" />
+                  <div className="box_txt">
                   <h1 className="titulo">Frete grátis</h1>
                   <p className="txt">Aproveite o frete grátis em todas as compras. Compre agora!</p>
+                  </div>
                 </div>
               </Col>
             </Row>

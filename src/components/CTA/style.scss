@@ -1,10 +1,7 @@
 .wrapper_CTA {
   width: 100%;
 
-  
-
   .box_img {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +13,7 @@
     }
   }
 
-  .box_card{
+  .box_card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,16 +23,15 @@
     margin-left: 85px;
     transition: all 0.5s;
 
-    .box_group{
+    .box_group {
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .group {
-      
-      width: 209px  ;
-      
+      width: 209px;
+
       .titulo {
         font-size: 24px;
         font-weight: 800;
@@ -53,27 +49,25 @@
     }
   }
 
-  @media(max-width: 600px){
-    .list_group{
+  @media (max-width: 600px) {
+    .list_group {
       margin-top: 52px;
       margin-left: 0;
 
-      .group{
+      .group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
         width: 311px;
       }
     }
-
-  
   }
 
-  @media(max-width: 1400px){
-    .list_group{
-      margin-top: 52px;    
+  @media (max-width: 1400px) {
+    .list_group {
+      margin-top: 52px;
       margin-left: 0px;
     }
-
-  
   }
-
-  
 }

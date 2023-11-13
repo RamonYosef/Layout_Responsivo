@@ -19,7 +19,7 @@ const Novidades = () => {
           navigation
           slidesPerView={1}
           spaceBetween={20}
-          breakpoints={{ 1400: { slidesPerView: 3, spaceBetween: 30}}}
+          breakpoints={{ 1400: { slidesPerView: 3, spaceBetween: 30}, 600: {slidesPerView: 2, spaceBetween: 30}}}
           className='swiper_slider'
         >
           <SwiperSlide>

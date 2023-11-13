@@ -6,8 +6,7 @@
   width: 100%;
   margin-top: 41px;
 
- 
-  .box_produtos{
+  .box_produtos {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -21,30 +20,34 @@
       font-family: 'Open Sans', sans-serif;
       color: #661b70;
     }
-  
-    
   }
 
-  @media (max-width: 600px){
-    .row_list{
+  @media (max-width: 600px) {
+    .box_produtos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .box_txt{
+        width: 306px;
+      }
+    }
+    .row_list {
       padding-left: 0;
     }
 
-    .list_card{
+    .list_card {
       flex-direction: column;
       gap: 31px;
     }
   }
 
-  @media (max-width: 1400px){
-    .row_list{
+  @media (max-width: 1400px) {
+    .row_list {
       display: flex;
       justify-content: center;
       align-items: center;
       padding-left: 0;
     }
-
-    
-   
   }
 }
